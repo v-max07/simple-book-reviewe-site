@@ -1,0 +1,14 @@
+.reviewSingleCart{
+    border: 2px solid green;
+    margin: 10px;
+    padding: 7px;
+    width: 300px;
+    background-color: rgb(26, 167, 248);
+    color: #fff;
+}
+.reviewsDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 30px auto ;
+}

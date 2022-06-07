@@ -1,0 +1,51 @@
+nav{
+    height: 70px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    padding: 0 10%;
+    font-family: "Teko", sans-serif;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.logo-div .logo-name{
+    color: #4ab0db;
+    text-shadow: 3px 3px 3px #656464;
+    font-size: 30px;
+    margin-top: 13px;
+    border: 1px solid #60b7f2;
+    padding: 8px;
+    background: #393939;
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px 0px;
+}
+
+
+.link-id{
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 20px;
+  color: #002394;
+  transition: color ease-in-out 300ms;
+}
+
+.link-id:hover {
+  color: #1f1db1;
+}
+
+.active-link {
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 20px;
+  transition: color ease-in-out 300ms;
+  color: #54bbe7;
+  font-weight: bold;
+}
+
+
